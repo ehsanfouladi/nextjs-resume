@@ -31,6 +31,16 @@ export const Personal = defineDocumentType(() => ({
       description: 'Your Twitter username without the "@" symbol',
       required: false,
     },
+    emailAddress: {
+      type: 'string',
+      description: 'Your Email address',
+      required: false,
+    },
+    phoneNumber: {
+      type: 'string',
+      description: 'Your phone number',
+      required: false,
+    },
   },
 }));
 
