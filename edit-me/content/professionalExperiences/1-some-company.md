@@ -1,7 +1,11 @@
 ---
-title: Official Job Title
-organization: Some Company
-startDate: August 2019
+title: opgAI
+organization: opgai.com
+startDate: April 2022
+endDate: Nov 2022
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis `nisl rhoncus mattis` rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc. Volutpat consequat mauris nunc congue nisi vitae suscipit. Venenatis lectus magna fringilla urna porttitor rhoncus. Id porta nibh venenatis cras. Felis bibendum ut tristique et egestas quis ipsum suspendisse.
+Designed and developed a web application for dental clinics to manage appointments, dentist schedules and patient info and medical history using Django, React.js and PostgreSQL. 
+Implemented AI features to assist dentists with diagnosis and tooth condition visualization.
+- Provided a high-accuracy AI that helps dentists find tooth and gum problems with one click.
+- Received positive feedback and referrals from the client for delivering a high-quality and user-friendly web application on time and within budget.

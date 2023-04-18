@@ -1,11 +1,10 @@
 ---
-title: Volunteer Position
-organization: Some Nonprofit
-startDate: April 2015
-endDate: February 2018
+title: Strategy Panel
+organization: cadinu.io
+startDate: April 2023
+endDate: Oct 2022
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac.
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 🎉
-- Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra justo nec ultrices. 🎉
+Designed and developed a web application that allows users to create and manage market-making strategies for various cryptocurrencies using Django, Celery and mySQL. Implemented features such as real-time data visualization, two-step authentication, editable tables.
+- Increased the market volume and profitability of the client.
+- Fulfilled the client’s expectations and secured their referral for creating a web application that was user-friendly and high-quality, on time and within budget.
