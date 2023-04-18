@@ -32,24 +32,24 @@ export const Footer: React.FC = () => {
           Copyright ©{new Date().getFullYear()} {fullName}
         </div>
 
-        <div className="mt-1 text-sm">
-          This résumé was generated with{' '}
-          <a className="link" href="https://nextjs.org/">
-            Next.js
-          </a>{' '}
-          and deployed on{' '}
-          <a className="link" href="https://vercel.com/">
-            Vercel
-          </a>
-          . Learn how to deploy your own résumé with the{' '}
-          <a
-            className="link"
-            href="https://github.com/colinhemphill/nextjs-resume-generator"
-          >
-            nextjs-resume-generator
-          </a>
-          !
-        </div>
+        {/*<div className="mt-1 text-sm">*/}
+        {/*  This résumé was generated with{' '}*/}
+        {/*  <a className="link" href="https://nextjs.org/">*/}
+        {/*    Next.js*/}
+        {/*  </a>{' '}*/}
+        {/*  and deployed on{' '}*/}
+        {/*  <a className="link" href="https://vercel.com/">*/}
+        {/*    Vercel*/}
+        {/*  </a>*/}
+        {/*  . Learn how to deploy your own résumé with the{' '}*/}
+        {/*  <a*/}
+        {/*    className="link"*/}
+        {/*    href="https://github.com/colinhemphill/nextjs-resume-generator"*/}
+        {/*  >*/}
+        {/*    nextjs-resume-generator*/}
+        {/*  </a>*/}
+        {/*  !*/}
+        {/*</div>*/}
       </div>
     </footer>
   );
