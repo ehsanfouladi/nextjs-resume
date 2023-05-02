@@ -1,6 +1,6 @@
 ---
 achievement: Master of Telecommunication Engineering
-organization: Yazd University
+organization: Yazd University (GPA 3.14)
 completionYear: 2016
 ---
 

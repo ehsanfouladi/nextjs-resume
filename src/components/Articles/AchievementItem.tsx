@@ -8,7 +8,7 @@ import Prose from '../Prose/Prose';
 const AchievementItem: React.FC<Achievement> = ({
   achievement,
   body,
-  organization,
+  organization, completionYear
 }) => {
   return (
     <article className="border-t-2 border-neutral-6 py-6 first-of-type:border-none last-of-type:pb-0">
@@ -16,7 +16,7 @@ const AchievementItem: React.FC<Achievement> = ({
 
       <div className="mt-1 font-medium tracking-wide">
         <FontAwesomeIcon className="mr-2" icon={faUniversity} />
-        {organization}
+        {organization} - {completionYear}
       </div>
 
       <Prose html={body.html} />
