@@ -1,12 +1,8 @@
 ---
-title: opgAI
-organization: opgai.com
-startDate: April 2022
-endDate: Nov 2022
+title: Metil Hamyar Admin Dashboard
+organization: Metil Hamyar
+startDate: May 2021
+endDate: Aug 2021
 ---
 
-Designed and developed a web application for dental clinics to manage appointments, dentist schedules and patient info and medical history using Django, React.js and PostgreSQL.
-Implemented AI features to assist dentists with diagnosis and tooth condition visualization.
-
-- Provided a high-accuracy AI that helps dentists find tooth and gum problems with one click.
-- Received positive feedback and referrals from the client for delivering a high-quality and user-friendly web application on time and within budget.
+A web application that allows managers of the Metil Hamyar Company (the biggest company in Iran that transport iron ore from different parts of country to iron foundries) to store all transportation data including rail and road transportation and their laboratory results for each cargo. I was responsible to design and develop both back-end and front-end using Django REST Framework and React.js
