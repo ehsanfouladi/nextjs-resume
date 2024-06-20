@@ -4,11 +4,9 @@ organization: cadinu.io
 startDate: April 2022
 endDate: Now
 ---
-
-Developed the entire front-end of a crypto platform, forking the PancakeSwap frontend and customizing it for Cadinu's specific needs (Next.js, TypeScript).
-
-- Built the backend functionality for the trading competition, mini-games and profile feature (Django, Django REST Framework, Celery) within a tight 40-day deadline, utilizing both smart contracts and Wagmi and Viem integration.
-
-Key Achievements:
-- Successfully implemented a complex features within a limited timescale.
-- Gained experience working with blockchain technology.
+- Developed crypto-app [platform frontend](https://apps.cadinu.io).
+- Developed [landing page](https://cadinu.io) and [blog](https://blog.cadinu.io) and the CMS.(Next.js, Strapi)
+- Developed an admin dashboard for managing trading bots.(Django, Celery)
+- Built key backend features (Django, DRF, Celery, Web3).
+- Mastered Web3 development for crypto frontend creation(Wagmi, Viem).
+- Successfully implemented complex features under pressure.
