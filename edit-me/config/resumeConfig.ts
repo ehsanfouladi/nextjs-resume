@@ -11,7 +11,7 @@ const config: ResumeConfig = {
   neutralColor: NeutralColors.Mauve,
   appTheme: ThemeSetting.System,
   imageTheme: Theme.Light,
-  pdfTheme: Theme.Dark,
+  pdfTheme: Theme.Light,
 };
 
 export default config;
