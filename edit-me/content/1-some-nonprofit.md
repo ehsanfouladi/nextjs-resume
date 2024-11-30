@@ -1,8 +1,8 @@
 ---
 title: Strategy Panel
 organization: cadinu.io
-startDate: April 2023
-endDate: Oct 2022
+startDate: April 2022
+endDate: Oct 2023
 ---
 
 Designed and developed a web application that allows users to create and manage market-making strategies for various cryptocurrencies using Django, Celery and mySQL. Implemented features such as real-time data visualization, two-step authentication, editable tables.
