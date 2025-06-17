@@ -4,9 +4,9 @@ organization: cadinu.io
 startDate: April 2022
 endDate: August 2023
 ---
-- Developed [Cadinu Crypto App Platform](https://apps.cadinu.io) frontend.
-- Developed [landing page](https://cadinu.io) and [blog](https://blog.cadinu.io) and the CMS.(Next.js, Strapi)
-- Developed an [admin dashboard](https://dashboard.cadinu.io) for managing trading bots.(Django, Celery)
-- Built key backend features (Django, DRF, Celery, Web3).
-- Mastered Web3 development for crypto frontend creation(Wagmi, Viem).
-- Successfully implemented complex features under pressure. 
+- Built the frontend for the [Cadinu Crypto App Platform](https://apps.cadinu.io), serving over 5,000 users.
+- Launched the [landing page](https://cadinu.io) and [blog](https://blog.cadinu.io), and implemented a CMS using Next.js and Strapi, increasing content publishing efficiency by 30%.
+- Engineered an [admin dashboard](https://dashboard.cadinu.io) for trading bot management with Django and Celery, improving operational oversight.
+- Developed key backend features with Django, DRF, Celery, and Web3, enabling secure and scalable crypto transactions.
+- Mastered Web3 development for crypto frontend creation using Wagmi and Viem, accelerating feature delivery.
+- Successfully implemented complex features under tight deadlines, contributing to project success and user satisfaction. 
