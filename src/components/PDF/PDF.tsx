@@ -15,6 +15,7 @@ import {
   Text,
   View,
 } from '@react-pdf/renderer';
+import path from 'path';
 import React from 'react';
 import Html from 'react-pdf-html';
 import { HtmlProps } from 'react-pdf-html/dist/Html';
@@ -35,10 +36,7 @@ import { Star } from './Icons/Star';
 import { htmlRenderers } from './htmlRenderers';
 
 const theme = resumeConfig.pdfTheme;
-const domain = process.env.NEXT_PUBLIC_VERCEL_URL
-  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-  : 'http://localhost:3000';
-const fontPath = `${domain}/fonts`;
+const fontPath = path.join(process.cwd(), 'public', 'fonts');
 
 Font.register({
   family: 'Albert Sans',
