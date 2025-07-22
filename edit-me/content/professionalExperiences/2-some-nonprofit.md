@@ -1,11 +1,13 @@
 ---
-title: opgAI
-organization: opgai.com
+title: Cadinuswap
+organization: cadinu.io
 startDate: April 2022
-endDate: Nov 2022
+endDate: August 2023
 ---
 
-- Designed and developed a web application for dental clinics to manage appointments, dentist schedules, and patient medical histories using Django, React.js, and PostgreSQL, adopted by 20+ clinics.
-- Implemented AI features for diagnosis and tooth condition visualization, achieving 95% accuracy and reducing diagnostic time by 40%.
-- Delivered a high-accuracy AI tool that enables dentists to identify tooth and gum problems with a single click.
-- Received positive client feedback and referrals for delivering a user-friendly, high-quality application on time and within budget.
+- Built the frontend for the [Cadinu Crypto App Platform](https://apps.cadinu.io), serving over 5,000 users.
+- Launched the [landing page](https://cadinu.io) and [blog](https://blog.cadinu.io), and implemented a CMS using Next.js and Strapi, increasing content publishing efficiency by 30%.
+- Engineered an [admin dashboard](https://dashboard.cadinu.io) for trading bot management with Django and Celery, improving operational oversight.
+- Developed key backend features with Django, DRF, Celery, and Web3, enabling secure and scalable crypto transactions.
+- Mastered Web3 development for crypto frontend creation using Wagmi and Viem, accelerating feature delivery.
+- Successfully implemented complex features under tight deadlines, contributing to project success and user satisfaction.

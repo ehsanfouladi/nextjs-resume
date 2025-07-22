@@ -1,13 +1,12 @@
 ---
-title: Cadinuswap
-organization: cadinu.io
-startDate: April 2022
-endDate: August 2023
+title: CTO & Fullstack Developer
+organization: isips.ir
+startDate: September 2023
+endDate: Now
 ---
 
-- Built the frontend for the [Cadinu Crypto App Platform](https://apps.cadinu.io), serving over 5,000 users.
-- Launched the [landing page](https://cadinu.io) and [blog](https://blog.cadinu.io), and implemented a CMS using Next.js and Strapi, increasing content publishing efficiency by 30%.
-- Engineered an [admin dashboard](https://dashboard.cadinu.io) for trading bot management with Django and Celery, improving operational oversight.
-- Developed key backend features with Django, DRF, Celery, and Web3, enabling secure and scalable crypto transactions.
-- Mastered Web3 development for crypto frontend creation using Wagmi and Viem, accelerating feature delivery.
-- Successfully implemented complex features under tight deadlines, contributing to project success and user satisfaction.
+- Led the technical vision and architecture for [iSips](https://isips.ir) and [iCart](https://icarts.ir) overseeing all aspects of product development and deployment, resulting in a 30% increase in platform reliability.
+- Designed and implemented scalable web solutions using React, Node.js.
+- Coordinated a cross-functional team of 6 developers and designers to deliver 12 new features, reducing time-to-market by 25%.
+- Developed and maintained both frontend and backend systems, ensuring seamless integration and 99.9% uptime.
+- Championed best practices in code quality, security, and DevOps, leading to a 40% reduction in critical bugs.
