@@ -315,26 +315,30 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <CircleBriefcase size={fontSizes.m} />
               <Text>Professional Experience</Text>
             </View>
-            {allProfessionalExperiences.map((professionalExperience) => (
-              <View key={professionalExperience._id}>
-                <View style={styles.itemHeading}>
-                  <Text style={styles.professionalTitle}>
-                    {professionalExperience.title}
-                  </Text>
-                  <Text>&nbsp;at {professionalExperience.organization}</Text>
+            {allProfessionalExperiences.map((professionalExperience, index) => {
+              const isLastExperience =
+                index === allProfessionalExperiences.length - 1;
+              return (
+                <View key={professionalExperience._id} break={isLastExperience}>
+                  <View style={styles.itemHeading}>
+                    <Text style={styles.professionalTitle}>
+                      {professionalExperience.title}
+                    </Text>
+                    <Text>&nbsp;at {professionalExperience.organization}</Text>
+                  </View>
+                  <View style={styles.itemSubheadingRow}>
+                    <Calendar size={fontSizes.xxs} />
+                    <Text style={styles.itemSubheading}>
+                      {professionalExperience.startDate}—
+                      {professionalExperience.endDate
+                        ? professionalExperience.endDate
+                        : 'Current'}
+                    </Text>
+                  </View>
+                  <Html {...htmlProps}>{professionalExperience.body.html}</Html>
                 </View>
-                <View style={styles.itemSubheadingRow}>
-                  <Calendar size={fontSizes.xxs} />
-                  <Text style={styles.itemSubheading}>
-                    {professionalExperience.startDate}—
-                    {professionalExperience.endDate
-                      ? professionalExperience.endDate
-                      : 'Current'}
-                  </Text>
-                </View>
-                <Html {...htmlProps}>{professionalExperience.body.html}</Html>
-              </View>
-            ))}
+              );
+            })}
           </View>
           <View style={styles.section}>
             <View style={styles.sectionHeading}>

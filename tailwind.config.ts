@@ -7,6 +7,23 @@ import { ThemeSetting } from './edit-me/types/Config';
 import resumeConfig from './edit-me/config/resumeConfig';
 import { contrastColor } from './src/helpers/colorContrast';
 
+const hasRadixPalette = (token: string): token is keyof typeof colors =>
+  Object.prototype.hasOwnProperty.call(colors, token);
+
+const accentKey = hasRadixPalette(resumeConfig.accentColor)
+  ? resumeConfig.accentColor
+  : ('blue' as keyof typeof colors);
+const accentDarkKey = hasRadixPalette(`${accentKey}Dark`)
+  ? (`${accentKey}Dark` as keyof typeof colors)
+  : ('blueDark' as keyof typeof colors);
+
+const neutralKey = hasRadixPalette(resumeConfig.neutralColor)
+  ? resumeConfig.neutralColor
+  : ('mauve' as keyof typeof colors);
+const neutralDarkKey = hasRadixPalette(`${neutralKey}Dark`)
+  ? (`${neutralKey}Dark` as keyof typeof colors)
+  : ('mauveDark' as keyof typeof colors);
+
 export default {
   content: [
     './src/app/**/*.{js,ts,jsx,tsx}',
@@ -18,14 +35,12 @@ export default {
       // only generate CSS vars for configured color choices
       colors: Object.fromEntries(
         Object.entries({
-          [resumeConfig.accentColor]: colors[resumeConfig.accentColor],
-          [`${resumeConfig.accentColor}Dark`]:
-            colors[`${resumeConfig.accentColor}Dark`],
+          [accentKey]: colors[accentKey],
+          [accentDarkKey]: colors[accentDarkKey],
           amber: colors.amber,
           amberDark: colors.amberDark,
-          [resumeConfig.neutralColor]: colors[resumeConfig.neutralColor],
-          [`${resumeConfig.neutralColor}Dark`]:
-            colors[`${resumeConfig.neutralColor}Dark`],
+          [neutralKey]: colors[neutralKey],
+          [neutralDarkKey]: colors[neutralDarkKey],
           red: colors.red,
           redDark: colors.redDark,
         }).filter(([, value]) => value !== undefined && value !== null),
@@ -39,10 +54,10 @@ export default {
     extend: {
       // add semantic names for configured color choices
       colors: {
-        accent: toRadixVars(resumeConfig.accentColor),
+        accent: toRadixVars(accentKey),
         accentContrast: contrastColor,
         danger: toRadixVars('red'),
-        neutral: toRadixVars(resumeConfig.neutralColor),
+        neutral: toRadixVars(neutralKey),
       },
       container: {
         center: true,
