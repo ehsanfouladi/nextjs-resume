@@ -1,12 +1,12 @@
 ---
-title: CTO & Fullstack Developer
-organization: isips.ir
+title: 'CTO & Fullstack Developer'
+organization: lenosell.ir
 startDate: September 2023
 endDate: Now
 ---
 
-- Led the technical vision and architecture for [iSips](https://isips.ir) and [iCart](https://icarts.ir) overseeing all aspects of product development and deployment, resulting in a 30% increase in platform reliability.
-- Designed and implemented scalable web solutions using React, Node.js.
-- Coordinated a cross-functional team of 6 developers and designers to deliver 12 new features, reducing time-to-market by 25%.
-- Developed and maintained both frontend and backend systems, ensuring seamless integration and 99.9% uptime.
-- Championed best practices in code quality, security, and DevOps, leading to a 40% reduction in critical bugs.
+- Serve as CTO for LenoSell (formerly iSips), setting technical strategy, managing engineering execution, and aligning product roadmap with business goals.
+- Led development across the Shop, Order, and Product microservices for LenoSell, owning REST and gRPC interfaces, OAuth2 introspection middleware, Prometheus instrumentation, and admin theming within a Django/DRF ecosystem.
+- Orchestrated shop profile and variant models with geospatial data, Celery-backed jobs, and inter-service gRPC integrations while hardening the product catalog with hierarchical categories, bulk operations, and S3-integrated storage.
+- Delivered a Django OAuth Toolkit–based authentication server, redesigned iCart’s core payment database and transaction flows, and co-architected the Review, Discount, KYC/KYB, and Subscription microservices.
+- Directed Docker packaging and deployment pipelines across environments, pairing infrastructure automation with service observability, maintaining protobuf contracts, enforcing drf-spectacular API documentation, and optimizing GDAL/GEOS dependencies for production reliability.

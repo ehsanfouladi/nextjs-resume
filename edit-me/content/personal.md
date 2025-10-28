@@ -7,4 +7,6 @@ location: Shiraz, Fars, Iran
 twitterUsername:
 ---
 
-I’m a freelance full stack web developer with 6+ years of experience and skills in Django, React.js, PostgreSQL and more. I have created engaging and user-friendly web applications for various industries and purposes, such as crypto platform applications, dental diagnosis, data management and more. I have received positive feedback and referrals from clients for delivering high-quality work on time and within budget. I’m passionate about web development and eager to learn new skills and technologies. I’m seeking a challenging and rewarding position where I can apply my skills and contribute to the success of a dynamic team.
+I serve as CTO at LenoSell (formerly iSips), steering the technical vision and execution of an e-commerce ecosystem that spans shop, order, and product microservices. My focus is scaling Django/DRF platforms, evolving REST and gRPC integrations, and keeping infrastructure observable, secure, and production-ready.
+
+Alongside that role I continue to take on select freelance engagements, leveraging 6+ years of full-stack experience with Django, React, PostgreSQL, and modern DevOps practices to deliver high-quality products on time and within budget. I thrive in collaborative environments that value ownership, rapid iteration, and measurable impact.
