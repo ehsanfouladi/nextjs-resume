@@ -13,6 +13,9 @@
     "pdf"
   ],
   "homepage": "https://github.com/colinhemphill/nextjs-resume-generator",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "build": "next build",
     "build:content": "contentlayer build",
