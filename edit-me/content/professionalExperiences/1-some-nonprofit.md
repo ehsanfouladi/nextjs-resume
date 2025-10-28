@@ -1,4 +1,5 @@
 ---
+type: ProfessionalExperience
 title: 'CTO & Fullstack Developer'
 organization: lenosell.ir
 startDate: September 2023

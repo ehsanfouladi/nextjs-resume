@@ -1,4 +1,5 @@
 ---
+type: ProfessionalExperience
 title: Software Engineer (Contract)
 organization: Metil Hamyar
 startDate: September 2021

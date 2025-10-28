@@ -1,4 +1,5 @@
 ---
+type: ProfessionalExperience
 title: Cadinuswap
 organization: cadinu.io
 startDate: April 2022

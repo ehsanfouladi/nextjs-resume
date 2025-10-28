@@ -1,4 +1,5 @@
 ---
+type: ProfessionalExperience
 title: opgAI
 organization: opgai.com
 startDate: April 2022

@@ -16,18 +16,20 @@ export default {
   plugins: [
     windyRadixPlugin({
       // only generate CSS vars for configured color choices
-      colors: {
-        [resumeConfig.accentColor]: colors[resumeConfig.accentColor],
-        [`${resumeConfig.accentColor}Dark`]:
-          colors[`${resumeConfig.accentColor}Dark`],
-        amber: colors.amber,
-        amberDark: colors.amberDark,
-        [resumeConfig.neutralColor]: colors[resumeConfig.neutralColor],
-        [`${resumeConfig.neutralColor}Dark`]:
-          colors[`${resumeConfig.neutralColor}Dark`],
-        red: colors.red,
-        redDark: colors.redDark,
-      },
+      colors: Object.fromEntries(
+        Object.entries({
+          [resumeConfig.accentColor]: colors[resumeConfig.accentColor],
+          [`${resumeConfig.accentColor}Dark`]:
+            colors[`${resumeConfig.accentColor}Dark`],
+          amber: colors.amber,
+          amberDark: colors.amberDark,
+          [resumeConfig.neutralColor]: colors[resumeConfig.neutralColor],
+          [`${resumeConfig.neutralColor}Dark`]:
+            colors[`${resumeConfig.neutralColor}Dark`],
+          red: colors.red,
+          redDark: colors.redDark,
+        }).filter(([, value]) => value !== undefined && value !== null),
+      ),
     }),
     plugin(function ({ addVariant }) {
       addVariant('hocus', ['&:hover', '&:focus']);
